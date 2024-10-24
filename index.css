@@ -1,0 +1,121 @@
+body {
+    background-color: rgb(38, 38, 38);
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+
+.main {
+    width: 55%;
+    min-height: 100%;
+    margin: auto;
+    background-color: white;
+    padding: 0px 2rem;
+    padding-bottom: 1rem;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+h1 {
+    text-transform: uppercase;
+    color: rgb(20 48 94);
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+}
+
+.data {
+    padding: 0px 0.5rem;
+}
+
+.section {
+    margin-bottom: 1rem;
+}
+
+.small {
+    font-size: xx-small;
+}
+
+.profile-links {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+hr {
+    margin: 0;
+}
+
+.head {
+    color: rgb(0 92 171);
+    font-weight: 500;
+}
+
+.flex-btw {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub-head {
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.desc {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.detail {
+    margin-bottom: 1rem;
+}
+
+.projects {
+    margin-bottom: 1rem;
+}
+
+.project-name {
+    font-weight: 600;
+}
+
+p{
+    margin: 0;
+}
+
+@media screen and (max-width : 440px) {
+    .main {
+        width: 100%;
+    }
+
+    .sub-head {
+        font-size: 0.6rem;
+    }
+
+    .desc {
+        font-size: 0.6rem;
+    }
+
+    .detail {
+        margin-bottom: 0.8rem;
+    }
+
+    .projects {
+        margin-bottom: 0.8rem;
+    }
+
+    .head{
+        font-size: 0.7rem;
+    }
+}
